@@ -1,0 +1,32 @@
+# 빌드 결과
+/target/          # Maven
+/build/           # Gradle
+out/              # Eclipse/IDE 빌드 결과
+
+# IntelliJ IDEA
+*.iml
+.idea/
+
+# Eclipse
+.metadata/
+.classpath
+.project
+.settings/
+bin/
+lib/
+
+# VSCode
+.vscode/
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+
+*.log
+*.tmp
+
+# Spring Boot 환경설정 (민감정보 파일)
+application-local.properties
+application-secret.yml
